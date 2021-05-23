@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <header>
+        <div id="barra">
+            <img src="/img/logo-americanas.png" alt="">
+        </div>
+    </header>
+    <section class="container">
+        <div class="icone">
+            <i class="far fa-user"><span class="titulo">cadastre-se</span></i>
+        </div>
+        <p>crie uma conta rápido e fácil com o facebook</p>
+        <button type="submit" id="faceButton">
+            <i class="fab fa-facebook-f"><span class="facebook"> Continuar com o Facebook</span></i>
+        </button>
+
+    </section>
+
+    <hr>
+
+    <section class="container">
+        <form action="">
+            <label for="e-mail">e-mail</label>
+            <p><input type="email" name="email" id="email" placeholder="example@gmail.com" size="30px"></p>
+
+            <label for="senha">senha</label>
+            <p><input type="password" name="senha" id="senha" size="30px"></p>
+
+            <label for="cpf">CPF</label>
+            <p><input type="text" name="cpf" id="cpf" placeholder="Ex: 123.456.789-12" size="30px"></p>
+
+            <label for="nome">seu nome e sobrenome</label>
+            <p><input type="text" name="nome" id="nome" placeholder="Ex: Fulano de Tal" size="50px"></p>
+
+            <label for="nascimento">data de nascimento</label>
+            <p><input type="date" name="nascimento" id="nascimento" ></p>
+
+            <label for="genero">sexo</label>
+            <p> <input type="radio" name="sexo" id="masculino" checked>Masculino
+                <input type="radio" name="sexo" id="feminino">Feminino
+            </p>
+
+            <label for="telefone">telefone</label>
+            <p><input type="tel" name="telefone" id="telefone" placeholder="Ex: (99) 99999-9999"></p>
+
+            <ul>
+                <li>
+                    <input type="checkbox" name="notificacao" id="notificacao">
+                    <label>receber notificações por whatsapp.</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="ofertas" id="ofertas" checked>
+                    <label>desejo receber ofertas por e-mail.</label>
+                </li>
+            </ul>
+            
+
+            <p><input type="submit" value="criar seu cadastro" id="cadastrar" onclick="cadastrar()"></p>
+        </form>
+    </section>
+
+</body>
+<script src="https://kit.fontawesome.com/89f835ae27.js" crossorigin="anonymous"></script>
+</html>

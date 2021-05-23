@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#barra{
+    height: 130px;
+    background: #d0011b;
+}
+
+img{
+    height: 130px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone{
+    margin: 30px;
+    font: normal 30pt Arial;
+    color: rgb(80, 73, 73);
+}
+
+.titulo{
+    padding-left: 15px;
+}
+
+p, label{
+    font: normal 15pt Arial;
+    color: rgb(102, 95, 95);
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+#faceButton{
+    background-color: #4a85dffb;
+    color:white;
+    font: normal 20pt Arial;
+    border-radius: 15px;
+    height: 70px;
+    width: 530px;
+    margin-top: 35px;
+}
+
+.facebook{
+    padding-left: 55px;
+}
+
+hr{
+    width: 80%;
+    margin: 50px auto;
+   color: rgba(194, 189, 189, 0.452);
+}
+
+input{
+    height: 60px;   
+    font: normal 15pt Arial;
+    
+}
+
+ul{
+    list-style-type: none; 
+    margin-bottom: 50px;
+}
+
+#cadastrar{
+    display: flex;
+    margin: auto;
+    width: 350px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+    background: #d0011b;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
